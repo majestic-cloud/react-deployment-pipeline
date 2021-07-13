@@ -1,0 +1,14 @@
+version: 0.1
+phases:
+  pre_build:
+    commands:
+      - echo This will run npm install to install the dependencies...
+      - npm install
+  build:
+    commands:
+      - echo Actually run the build process
+      - npm run build
+artifacts:
+  files:
+    - '**/*'
+  base-directory: build
