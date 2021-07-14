@@ -12,8 +12,8 @@
           "s3:DeleteObject"
       ],
       "Resource": [
-          "arn:aws:s3:::mc-s3-react-pipeline",
-          "arn:aws:s3:::mc-s3-react-pipeline/*"
+          "arn:aws:s3:::pipelinebucket_replacewithyourown",
+          "arn:aws:s3:::pipelinebucket_replacewithyourown/*"
       ],
       "Effect": "Allow"
     },
@@ -28,8 +28,8 @@
           "s3:DeleteObject"
       ],
       "Resource": [
-          "arn:aws:s3:::mc-s3-react-deploy",
-          "arn:aws:s3:::mc-s3-react-deploy/*"
+          "arn:aws:s3:::deploybucket_replacewithyourown",
+          "arn:aws:s3:::deploybucket_replacewithyourown/*"
       ],
       "Effect": "Allow"
     },
